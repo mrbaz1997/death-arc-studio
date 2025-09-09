@@ -18,7 +18,6 @@ export function GamesShowcase() {
 
     // Check if it's an external link (contains http/https or common domains)
     const isExternalLink =
-      game.link.startsWith("http") ||
       game.link.includes("play.google.com") ||
       game.link.includes("store.steampowered.com") ||
       game.link.includes("itunes.apple.com")
