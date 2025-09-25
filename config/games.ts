@@ -12,7 +12,7 @@ export const games: Game[] = [
     description: "Shoot'em-Up Arcade Game.",
     image: "",
     status: "Coming Soon",
-    link: "https://drive.google.com/uc?export=download&id=1dNGVhVdiElSQOfZurWf0MWk83bXCMJFY",
+    link: "https://death-arc.p568653d95a43f075199fadcdd7df1a49.r2.cloudflarestorage.com/Videos/Spacy.mp4",
   },
   {
     title: "Tic Tac Toe 2",
@@ -26,7 +26,7 @@ export const games: Game[] = [
     description: "Ultimate survival challenge strategy game.",
     image: "",
     status: "Released",
-    link: "https://drive.google.com/uc?export=download&id=13uws4zEOBi0EMp-09NCFZherTmvhar9n",
+    link: "https://death-arc.p568653d95a43f075199fadcdd7df1a49.r2.cloudflarestorage.com/Videos/LastOne.mp4",
   },
   {
     title: "Snake Tower",
@@ -40,14 +40,14 @@ export const games: Game[] = [
     description: "A Merging Restaurant game.",
     image: "",
     status: "Coming Soon",
-    link: "https://drive.google.com/uc?export=download&id=1EmqrAyTV9cmH_GJq4Ob6j9x4lpdocpQD",
+    link: "https://death-arc.p568653d95a43f075199fadcdd7df1a49.r2.cloudflarestorage.com/Videos/Rushtaurant.mp4",
   },
   {
     title: "Spinning Tank",
     description: "A fast-paced one-tap arcade game where your player loops endlessly around the track, and a single tap reverses your direction to dodge monsters and survive.",
     image: "",
     status: "Coming Soon",
-    link: "https://drive.google.com/uc?export=download&id=1VxHyN0AX5WocVupMeywvo6XU9MColkUF",
+    link: "https://death-arc.p568653d95a43f075199fadcdd7df1a49.r2.cloudflarestorage.com/Videos/Spinning Tank.mp4",
   },
   {
     title: "BlackSmith",
@@ -55,13 +55,13 @@ export const games: Game[] = [
       "A mid-core Tower defense game (includes rougelike, backpack and merging elements), a Blacksmith that should make weapons as much as he can for defense.",
     image: "",
     status: "Coming Soon",
-    link: "https://drive.google.com/uc?export=download&id=1UsRfqaHcn7Xk-d0goOPEiFdwdEX-kLMD",
+    link: "https://death-arc.p568653d95a43f075199fadcdd7df1a49.r2.cloudflarestorage.com/Videos/BlackSmith.mp4",
   },
   {
     title: "The Rolling Ball",
     description: "A 3d swiping Ball game, with good level design and physic challenges.",
     image: "",
     status: "Coming Soon",
-    link: "https://drive.google.com/uc?export=download&id=1jkOkGQwJnyaeOin82zSXfOc3dmbnRQf7",
+    link: "https://death-arc.p568653d95a43f075199fadcdd7df1a49.r2.cloudflarestorage.com/Videos/BallRecord.mp4",
   },
 ]
