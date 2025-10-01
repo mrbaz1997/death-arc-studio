@@ -29,7 +29,7 @@ export function AboutSection() {
             </div>
           </div>
 
-          <div className="relative">
+/*           <div className="relative">
             <Card className="p-8">
               <CardContent className="p-0">
                 <img
@@ -39,7 +39,7 @@ export function AboutSection() {
                 />
               </CardContent>
             </Card>
-          </div>
+          </div> */
         </div>
       </div>
     </section>
