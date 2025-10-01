@@ -31,7 +31,7 @@ export const games: Game[] = [
   {
     title: "Snake Tower",
     description: "Swipe, grow, and blast enemies in this epic snake-shooter roguelike!",
-    image: "",
+    image: "/snaketower.png",
     status: "Coming Soon",
     link: "http://drive.google.com/uc?export=download&id=1ULLDz_KvFV_tap7uxhdSFiZNlEfE4__1",
   },
