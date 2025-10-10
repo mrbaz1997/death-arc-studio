@@ -28,18 +28,6 @@ export function AboutSection() {
               ))}
             </div>
           </div>
-
-/*           <div className="relative">
-            <Card className="p-8">
-              <CardContent className="p-0">
-                <img
-                  src="game-development-team-working-together-in-modern-s.jpg"
-                  alt="Death Arc Studio Team"
-                  className="w-full h-80 object-cover rounded-lg"
-                />
-              </CardContent>
-            </Card>
-          </div> */
         </div>
       </div>
     </section>
