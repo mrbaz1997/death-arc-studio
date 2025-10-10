@@ -8,7 +8,7 @@ export function AboutSection() {
   return (
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-card">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-card-foreground mb-6">About Death Arc Studio</h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
