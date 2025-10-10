@@ -1,7 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card"
 
 const teamStats = [
-  { label: "Games", value: "8+" }
+  { label: "Games Released", value: "12+" },
+  { label: "Years Experience", value: "8+" },
+  { label: "Team Members", value: "15" },
+  { label: "Awards Won", value: "5" },
 ]
 
 export function AboutSection() {
@@ -12,7 +15,9 @@ export function AboutSection() {
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-card-foreground mb-6">About Death Arc Studio</h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-             Crafting immersive experiences through innovative gameplay and cutting-edge technology. Join us in shaping the future of gaming!
+              Founded with a passion for creating extraordinary gaming experiences, Death Arc Studio brings together
+              talented developers, artists, and designers who share a common vision: to craft games that inspire,
+              challenge, and entertain players worldwide.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               Our team combines years of industry experience with fresh perspectives, resulting in innovative games that
@@ -29,17 +34,17 @@ export function AboutSection() {
             </div>
           </div>
 
-/*           <div className="relative">
+          <div className="relative">
             <Card className="p-8">
               <CardContent className="p-0">
                 <img
-                  src="game-development-team-working-together-in-modern-s.jpg"
+                  src="/game-development-team-working-together-in-modern-s.jpg"
                   alt="Death Arc Studio Team"
                   className="w-full h-80 object-cover rounded-lg"
                 />
               </CardContent>
             </Card>
-          </div> */
+          </div>
         </div>
       </div>
     </section>

@@ -30,24 +30,35 @@ export function Footer() {
                   About Us
                 </a>
               </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors"
+                >
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-lg font-semibold text-secondary-foreground mb-4">Connect With Us</h4>
             <div className="flex space-x-4">
-              <a href="https://www.instagram.com/deatharcstudio/" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">
-                Instagram
+              <a href="#" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">
+                Twitter
               </a>
-              <a href="https://www.linkedin.com/company/death-arc" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">
+              <a href="#" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">
                 LinkedIn
+              </a>
+              <a href="#" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">
+                GitHub
               </a>
             </div>
           </div>
         </div>
 
         <div className="border-t border-secondary-foreground/20 mt-8 pt-8 text-center">
-          <p className="text-secondary-foreground/60">© 2025 Death Arc Studio. All rights reserved.</p>
+          <p className="text-secondary-foreground/60">© 2024 Death Arc Studio. All rights reserved.</p>
         </div>
       </div>
     </footer>
