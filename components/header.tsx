@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export function Header() {
   return (
@@ -6,7 +7,16 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-foreground">Death Arc Studio</h1>
+          <Image
+            src="/placeholder-logo.png"
+            alt="Death Arc Studio Logo"
+            width={64}
+            height={64}
+            className="w-12 h-12 md:w-12 md:h-12"
+          />
+          <h1 className="text-2xl font-bold text-foreground">Death Arc Studio</h1>
+        </div>
+          <div className="flex items-center">
           </div>
           <nav className="hidden md:block">
             <div className="flex items-center space-x-8">
