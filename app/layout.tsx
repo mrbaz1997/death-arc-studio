@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   title: "Death Arc Studio - Game Development",
   description: "Professional game development studio. Learn more about our breathtaking games here!",
   generator: "Death Arc Studio",
+  icons: {
+    icon: "/placeholder-logo.png",
+    shortcut: "/placeholder-logo.png",
+    apple: "/placeholder-logo.png",
+  },
 }
 
 export default function RootLayout({
