@@ -7,8 +7,8 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Death Arc Studio - Game Development Portfolio",
-  description: "Professional game development studio showcasing innovative games and interactive experiences",
+  title: "Death Arc Studio - Game Development",
+  description: "Professional game development studio. Learn more about our breathtaking games here!",
   generator: "Death Arc Studio",
 }
 
