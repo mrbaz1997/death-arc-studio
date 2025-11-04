@@ -55,10 +55,10 @@ export const games: Game[] = [
     description: "Swipe, grow, and blast enemies in this epic snake-shooter roguelike!",
     status: "Coming Soon",
     link: "https://play.google.com/store/apps/details?id=com.DeathArc.SnakeTower",
-    logo: "snaketower-logo.png",
+    logo: "snaketower.png",
     fullDescription:
       "Snake Tower combines the addictive snake mechanic with roguelike progression and shooter action. Grow your snake, defeat enemies, and unlock powerful upgrades.",
-    gallery: ["snaketower.png"],
+    gallery: [],
     videos: [],
   },
   {

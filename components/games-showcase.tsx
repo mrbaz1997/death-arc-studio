@@ -53,7 +53,7 @@ export function GamesShowcase() {
                 <CardHeader className="p-0">
                   <div className="relative overflow-hidden rounded-t-lg">
                     <img
-                      src={game.gallery?.[0] || "/placeholder.svg"}
+                      src={game.logo || "/placeholder.svg"}
                       alt={game.title}
                       className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                     />
@@ -66,18 +66,11 @@ export function GamesShowcase() {
                 </CardHeader>
                 <CardContent className="p-6">
                   <div className="flex items-center gap-3 mb-3">
-                    {game.logo && (
-                      <img
-                        src={game.logo || "/placeholder.svg"}
-                        alt={`${game.title} logo`}
-                        className="w-10 h-10 object-contain"
-                      />
-                    )}
                     <CardTitle className="text-xl">{game.title}</CardTitle>
                   </div>
                   <CardDescription className="text-muted-foreground mb-4">{game.description}</CardDescription>
                   <Link href={`/game/${game.id}`}>
-                    <Button variant="outline" className="w-full bg-transparent" disabled={!game.link}>
+                    <Button variant="outline" className="w-full bg-transparent">
                       See More
                     </Button>
                   </Link>

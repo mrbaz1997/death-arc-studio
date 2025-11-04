@@ -57,15 +57,6 @@ export default function GamePageClient({ game }: GamePageClientProps) {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Column - Images and Videos */}
           <div className="lg:col-span-2">
-            {/* Featured Image */}
-            <div className="mb-8">
-              <img
-                src={selectedImage || game.gallery?.[0] || "/placeholder.svg"}
-                alt={game.title}
-                className="w-full rounded-lg object-cover max-h-96 cursor-pointer"
-                onClick={() => setSelectedImage(selectedImage ? null : game.gallery?.[0] || null)}
-              />
-            </div>
 
             {/* Gallery */}
             {game.gallery && game.gallery.length > 0 && (
