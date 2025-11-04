@@ -96,7 +96,7 @@ export const games: Game[] = [
     logo: "blacksmith-logo.png",
     fullDescription:
       "BlackSmith is an innovative tower defense game where you play as a blacksmith crafting weapons. Featuring roguelike progression, merge mechanics, and strategic tower placement.",
-    gallery: ["blacksmith"],
+    gallery: ["blacksmith.png"],
     videos: ["https://pub-0f41f92617a344ca9cd73e0c61a67b6c.r2.dev/Videos/Blacksmith.mp4"],
   },
   {

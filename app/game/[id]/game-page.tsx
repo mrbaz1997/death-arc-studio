@@ -12,7 +12,7 @@ interface GamePageClientProps {
 export default function GamePageClient({ game }: GamePageClientProps) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const galleryRef = useRef<HTMLDivElement>(null)
-
+console.log(game.id);
   const scroll = (direction: "left" | "right") => {
     if (galleryRef.current) {
       const scrollAmount = 300
@@ -40,7 +40,7 @@ export default function GamePageClient({ game }: GamePageClientProps) {
         {/* Game Header */}
         <div className="flex items-center gap-6 mb-8">
           {game.logo && (
-            <img src={game.logo || "/placeholder.svg"} alt={game.title} className="w-24 h-24 object-contain" />
+            <img src={"../"+game.logo || "/placeholder.svg"} alt={game.title} className="w-24 h-24 object-contain" />
           )}
           <div>
             <h1 className="text-4xl font-bold text-foreground mb-2">{game.title}</h1>
