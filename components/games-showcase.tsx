@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { games } from "@/config/games"
@@ -47,12 +48,12 @@ export function GamesShowcase() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-            {games.map((game, index) => (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:scale-105">
+            {games.map((game) => (
+              <Card key={game.id} className="group hover:shadow-lg transition-all duration-300 hover:scale-105">
                 <CardHeader className="p-0">
                   <div className="relative overflow-hidden rounded-t-lg">
                     <img
-                      src={game.image || "/placeholder.svg"}
+                      src={game.gallery?.[0] || "/placeholder.svg"}
                       alt={game.title}
                       className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                     />
@@ -64,16 +65,22 @@ export function GamesShowcase() {
                   </div>
                 </CardHeader>
                 <CardContent className="p-6">
-                  <CardTitle className="text-xl mb-2">{game.title}</CardTitle>
+                  <div className="flex items-center gap-3 mb-3">
+                    {game.logo && (
+                      <img
+                        src={game.logo || "/placeholder.svg"}
+                        alt={`${game.title} logo`}
+                        className="w-10 h-10 object-contain"
+                      />
+                    )}
+                    <CardTitle className="text-xl">{game.title}</CardTitle>
+                  </div>
                   <CardDescription className="text-muted-foreground mb-4">{game.description}</CardDescription>
-                  <Button
-                    variant="outline"
-                    className="w-full bg-transparent"
-                    onClick={() => handleLearnMore(game)}
-                    disabled={!game.link}
-                  >
-                    Learn More
-                  </Button>
+                  <Link href={`/game/${game.id}`}>
+                    <Button variant="outline" className="w-full bg-transparent" disabled={!game.link}>
+                      See More
+                    </Button>
+                  </Link>
                 </CardContent>
               </Card>
             ))}
